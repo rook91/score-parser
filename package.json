@@ -1,0 +1,20 @@
+{
+  "name": "score-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "app": "node dist\\index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rook01093",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/selenium-webdriver": "^4.1.24",
+    "cheerio": "^1.0.0",
+    "selenium-webdriver": "^4.23.0",
+    "typescript": "^5.5.4"
+  }
+}

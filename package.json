@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc index.ts",
-    "app": "node index.js",
+    "build": "tsc -p tsconfig.json",
+    "app": "node dist\\index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rook01093",
   "license": "MIT",
   "dependencies": {
     "@types/cheerio": "^0.22.35",
-    "axios": "^1.7.3",
+    "@types/selenium-webdriver": "^4.1.24",
     "cheerio": "^1.0.0",
+    "selenium-webdriver": "^4.23.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
 }

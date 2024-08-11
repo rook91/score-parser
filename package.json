@@ -1,0 +1,19 @@
+{
+  "name": "score-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc index.ts",
+    "app": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rook01093",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "axios": "^1.7.3",
+    "cheerio": "^1.0.0",
+    "typescript": "^5.5.4"
+  }
+}
